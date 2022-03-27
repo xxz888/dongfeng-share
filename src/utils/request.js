@@ -13,7 +13,7 @@ function getUrlParam(name) { //截取url参数
 }
 var ip=null
 if(getUrlParam('ip')==undefined && localStorage.getItem('ip') == undefined){
-    ip="caderapi.caderworld.com"
+    ip="api.dingdingxiaoer.cn"
 }else if(localStorage.getItem('ip')){
     ip = localStorage.getItem('ip')
 }else{ 
@@ -21,7 +21,7 @@ if(getUrlParam('ip')==undefined && localStorage.getItem('ip') == undefined){
 }
   
 if(ip == null){
-    ip = 'caderapi.caderworld.com'
+    ip = 'api.dingdingxiaoer.cn'
 }
 // 创建axios 实例
 const service = axios.create({

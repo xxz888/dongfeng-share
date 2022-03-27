@@ -3,7 +3,7 @@
   <div class="register_bg">
     <!-- <div class="bg_btn" @click="registerTrueFalseBy = true">立即下载</div> -->
     <div class="brandId_title" >
-      <div class="tit_logo"><img src="../../assets/register/title.png"/></div>
+      <!-- <div class="tit_logo"><img src="../../assets/register/title.png"/></div> -->
       <!-- <div class="tit_zi"><h1> 让美好生活变成一种习惯</h1></div> -->
     </div>
 
@@ -12,7 +12,7 @@
       <div class="register_box">
         <div class="logo">
           <div class="border">
-          <img src="../../assets/register/logo.png" alt="" />
+          <img src="../../assets/register/logo1.png" alt="" />
           </div>
         </div>
         <ul class="list">
@@ -361,7 +361,7 @@ export default {
   bottom: 60px;
   background-color: #fff;
   overflow: hidden;
-  border: rgb(160,251,0) 5px solid;
+  border: rgb(255,255,255) 5px solid;
 }
 .logo  img {
   position:absolute;

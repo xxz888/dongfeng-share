@@ -101,7 +101,7 @@ export default {
       message: "获取验证码",
       prePhone: "",
       registerTrue: false,
-      ip: "caderapi.caderworld.com",
+      ip: "api.dingdingxiaoer.cn",
     };
   },
   created() {
