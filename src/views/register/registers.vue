@@ -81,7 +81,7 @@
          
         </ul> 
 
-         <!-- <a class="btn2" @click="_getDownload ()">我已注册，立即下载</a> -->
+         <a class="btn2" @click="_getDownload ()">我已注册，立即下载</a>
         <div class="btn" @click="_register()">立即注册</div>
       </div>
     </div>
